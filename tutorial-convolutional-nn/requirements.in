@@ -1,0 +1,24 @@
+# pip-compile requirements.in -o requirements.txt
+tensorflow==1.13.1
+keras==2.2.4
+git+https://github.com/raghakot/keras-vis.git
+numpy==1.21.6
+scipy==1.2.3
+h5py==2.9.0
+matplotlib
+scikit-image==0.15.0
+protobuf~=3.20.0
+# pandas
+# scikit-image
+# scikit-learn
+
+# tensorflow-cpu==1.15.0
+# keras
+# keras-vis
+# numpy==1.21.6
+# scipy==1.2.3
+# matplotlib
+# scikit-image==0.15.0
+# protobuf~=3.20.0
+# Succesfull test of this tutorial was conducted for:
+# 'tensorflow==1.13.1', 'keras==2.2.4', 'numpy==1.16.4', 'scipy==1.1.0', 'matplotlib', 'pandas', 'seaborn', 'pymatgen==2020.3.13', 'sklearn'

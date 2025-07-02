@@ -1,0 +1,11 @@
+{
+  "authors": [
+    "Ziletti, Angelo",
+    "Leitherer, Andreas",
+    "Ghiringhelli, Luca M."
+  ],
+  "email": "ghiringhelli@fhi-berlin.mpg.de",
+  "title": "Introduction to convolutional neural networks",
+  "description": "In this tutorial, we briefly introduce the main ideas behind convolutional neural networks, build a neural network model with Keras, and explain the classification decision process using attentive response maps.",
+  "link_video": "https://youtu.be/MST8X1yCWK8"
+}
