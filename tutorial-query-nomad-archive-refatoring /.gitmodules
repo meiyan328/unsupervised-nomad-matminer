@@ -1,0 +1,3 @@
+[submodule "nomad-visu"]
+	path = nomad-visu
+	url = git@github.com:nomad-coe/nomad-visu.git

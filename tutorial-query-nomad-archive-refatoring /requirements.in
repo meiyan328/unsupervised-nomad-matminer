@@ -1,0 +1,19 @@
+# pip-compile --extra-index-url https://gitlab.mpcdf.mpg.de/api/v4/projects/2187/packages/pypi/simple
+# pip install -r requirements.in --index-url https://gitlab.mpcdf.mpg.de/api/v4/projects/2187/packages/pypi/simple
+numpy
+pandas
+hdbscan
+scikit-learn
+plotly
+bokeh
+matplotlib
+ipywidgets
+jupyter_jsmol==2021.3.0
+git+https://gitlab.mpcdf.mpg.de/nomad-lab/ai-toolkit/packages/atomic-features-package.git@fix_setup
+nomad-lab==1.2.2.dev399+gd19043a7b
+# Workaround: fixing nomad-lab's dependency on numpy
+xarray==0.20.2
+# Workaround: fixing nomad-lab's dependency on pydantic
+pymatgen==2023.2.28
+mp-api==0.30.10
+emmet-core==0.48.4
